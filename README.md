@@ -1,5 +1,7 @@
 # Recursion in Programming: Exploring Tail and Non-Tail Recursion
 
+For report: refer pdf in the Github Link
+
 This repository contains implementations of factorial functions using both non-tail and tail recursion in Common Lisp and Python. The purpose of these implementations is to explore and understand how each programming language handles recursion and to determine which one supports tail recursion optimization.
 
 ## Implementations
@@ -17,6 +19,7 @@ This repository contains implementations of factorial functions using both non-t
 ## Testing
 
 To test the implementations, you will need to have both Python and an implementation of Common Lisp (such as SBCL) installed on your system.
+Please change the value if you want to test for either big value or small value or see the attached PDF
 
 ### Testing in Common Lisp
 
@@ -32,7 +35,8 @@ For small values (e.g., 4):
 Testing in Python
 Run the .py files using a Python interpreter, or import the functions into an interactive Python shell and call them with the desired input values.
 
-For small values (e.g., 4):
+For small values : test with 4 and for large values, test with 99999
+
 
 ```python
 custom_factorial(4)       # Non-tail recursion
